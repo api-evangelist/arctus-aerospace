@@ -1,8 +1,27 @@
 aid: arctus-aerospace
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/arctus-aerospace.png
 name: Arctus Aerospace
-description: 'Arctus Aerospace is a company surfaced as a portfolio company of version-one-ventures and
-  added to the API Evangelist network as a stub for enrichment. Sector: deep-tech. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Arctus Aerospace is a Bengaluru, India based deep-tech startup building high-altitude,
+  long-endurance autonomous unmanned aircraft (MALE/HALE UAVs) for real-time Earth observation and
+  geospatial intelligence. Its platforms are designed to operate near 45,000 feet for over 24 hours
+  while carrying payloads up to 250 kg, delivering centimeter-level multispectral imagery as a
+  "zero-infrastructure" alternative to satellites. The company positions itself as a data-as-a-service
+  provider, selling subscription-based aerial coverage for energy, infrastructure, climate, defense,
+  and agriculture use cases. Founded in 2024 by Shreepoorna S. Rao, Arctus raised a $2.6M pre-seed
+  round led by Version One Ventures (with South Park Commons, gradCapital, and angels). As of this
+  writing the company is pre-product from an API standpoint and publishes no public developer surface,
+  API, or documentation; this profile was surfaced as a Version One Ventures portfolio lead.'
 url: https://raw.githubusercontent.com/api-evangelist/arctus-aerospace/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +31,33 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Deep Tech
+- Aerospace
+- Earth Observation
+- Geospatial
+- Unmanned Aircraft
+- Defense
+- Data as a Service
 apis: []
+common:
+- type: DomainSecurity
+  url: security/arctus-aerospace-domain-security.yml
+- type: Website
+  name: Arctus Aerospace
+  url: https://arctus.space/
+- type: Support
+  name: Contact
+  url: https://arctus.space/contact
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
